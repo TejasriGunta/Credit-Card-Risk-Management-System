@@ -30,7 +30,8 @@ selected XGBoost for its high F1 score and recall values.
 ## Feature Selection & Importance Analysis
 - Used base XGBoost model to derive feature importances and retained the **top 100** features.
 - To ensure interpretability and better understanding of the data, calculated **SHAP** values.
-![pic1](https://github.com/user-attachments/assets/a5f75522-8108-4561-9b93-ad7115df2fb4)
+![pic2](https://github.com/user-attachments/assets/d8e1718f-4c87-40a7-bc3f-b939f2581466)
+
 
 ## Final Model Pipeline with Results
 
