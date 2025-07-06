@@ -40,6 +40,7 @@ selected XGBoost for its high F1 score and recall values.
   - `>= 0.8`: High confidence fraud — flagged immediately.
   - `0.325 <= score < 0.8`: Borderline cases — sent to Stage 2.
   - `< 0.325`: Considered non-fraud.
+![image](https://github.com/user-attachments/assets/38e2ab2b-1663-4186-8664-44f95b85e07e)
 
 ### Stage 2: Calibrated Gradient Boosting (High Precision)
 - Borderline cases passed through a **GradientBoostingClassifier** wrapped in `CalibratedClassifierCV` (isotonic).
