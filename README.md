@@ -25,7 +25,7 @@ Each account is uniquely identified by `account_number`.
 ## Model Selection
 tested multiple industry-grade models to handle the extreme class imbalance (frauds <1%):
 selected XGBoost for its high F1 score and recall values.
-![model_comparision](https://github.com/user-attachments/assets/68c4411d-3f1e-4642-8922-72c4f8607200)
+![model_comparision_optimized](https://github.com/user-attachments/assets/03bc4511-b39d-4ae1-8333-878f3d4d4a80)
 
 ## Feature Selection & Importance Analysis
 - Used base XGBoost model to derive feature importances and retained the **top 100** features.
