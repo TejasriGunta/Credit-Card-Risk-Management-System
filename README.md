@@ -1,7 +1,7 @@
-# Credit-Card-Risk-Management-System - Two Stage Fraud Detection
+# Credit Card Risk Management System
 
 ## Introduction
-This project was developed as part of the **IDFC Bank x IIT Bombay Case Study Competition**. The objective is to build a predictive model called a **Behaviour Score**, which estimates the probability of default for active credit card customers. This score will be used for risk management tasks such as credit limit adjustments, rate modifications, and targeted customer engagement.
+This project was developed as part of the **IDFC Bank x IIT Bombay Case Study Competition**. The objective is to build a predictive model called a **Behaviour Score**, which estimates the probability of default for active credit card customers. This score can be used for risk management tasks such as credit limit adjustments, rate modifications, and targeted customer engagement.
 
 ## Problem Statement
 Given anonymized credit card portfolio data from IDFC Bank, the task is to predict the probability of default (`bad_flag = 1`) for each customer. A robust Behaviour Score will help the bank proactively manage risk across its portfolio.
