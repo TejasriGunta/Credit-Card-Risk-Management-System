@@ -24,7 +24,8 @@ Each account is uniquely identified by `account_number`.
 
 ## Model Selection
 tested multiple industry-grade models and selected XGBoost for its high F1 score and recall.
-              ![model_comparision_optimized](https://github.com/user-attachments/assets/03bc4511-b39d-4ae1-8333-878f3d4d4a80)
+              ![model_comparision](https://github.com/user-attachments/assets/5afdd50b-32f1-4f95-9225-43469b48b3ba)
+
 
 ## Feature Selection & Importance Analysis
 - Used base XGBoost model to derive feature importances and retained the **top 100** features.
