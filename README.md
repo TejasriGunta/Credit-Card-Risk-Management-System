@@ -25,6 +25,7 @@ Each account is uniquely identified by `account_number`.
 ## Model Selection
 tested multiple industry-grade models to handle the extreme class imbalance (frauds <1%):
 selected XGBoost for its high F1 score and recall values.
+![model_comparision](https://github.com/user-attachments/assets/68c4411d-3f1e-4642-8922-72c4f8607200)
 
 ## Feature Selection & Importance Analysis
 - Used base XGBoost model to derive feature importances and retained the **top 100** features.
@@ -64,7 +65,7 @@ weighted avg       0.99      0.85      0.90     19362
 
 This shows the **two-stage pipeline successfully achieved very high recall (91.9%)**, while maintaining considerably decent precision, ensuring to catch maximum defaulting customers.
 
-## ✅ Conclusion
+##  Conclusion
 The two-stage fraud detection system provides a **robust trade-off between recall and precision**:
 - Stage 1 ensures **no major frauds are missed**.
 - Stage 2 **controls false positives**, improving overall reliability.
