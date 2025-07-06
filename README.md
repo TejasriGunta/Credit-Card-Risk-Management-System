@@ -23,7 +23,7 @@ Each account is uniquely identified by `account_number`.
 - removed highly correlated features to help reduce multicollinearity
 
 ## Model Selection
-tested multiple industry-grade models to handle the extreme class imbalance (frauds <1%) and selected XGBoost for its high F1 score and recall values.\n
+tested multiple industry-grade models and selected XGBoost for its high F1 score and recall.
               ![model_comparision_optimized](https://github.com/user-attachments/assets/03bc4511-b39d-4ae1-8333-878f3d4d4a80)
 
 ## Feature Selection & Importance Analysis
